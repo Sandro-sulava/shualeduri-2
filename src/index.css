@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "inter";
+  src: url("/inter-regular.ttf");
+}
+
+@font-face {
+  font-family: "inter-extrabold";
+  src: url("/inter-extrabold.ttf");
+}
+
