@@ -1,8 +1,6 @@
-import React from "react";
 import { QueryProvider } from "../lib/query";
 import ContactSection from "../sections/ContactSection";
 
-// Default: safe page that includes the QueryClientProvider wrapper
 export default function ContactPage() {
   return (
     <QueryProvider>
@@ -12,6 +10,3 @@ export default function ContactPage() {
     </QueryProvider>
   );
 }
-
-// If your app already provides a global QueryClientProvider, you can
-// alternatively render <ContactSection /> directly in your route.
