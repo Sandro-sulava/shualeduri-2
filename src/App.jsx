@@ -3,7 +3,6 @@ import { schema } from "./schemas/Authschema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
-import FeedbackList from "./FeedbackList";
 
 const App = () => {
   const {
@@ -183,7 +182,6 @@ const App = () => {
           </div>
         </div>
       </div>
-      <FeedbackList />
     </div>
   );
 };

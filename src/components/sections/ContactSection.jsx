@@ -3,12 +3,12 @@ import ContactForm from "../contact/components/ContactForm";
 export default function ContactSection() {
   return (
     <section className="relative mx-auto max-w-6xl px-4 py-20">
-      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-indigo-600/20 via-fuchsia-500/10 to-transparent" />
+      <div className="pointer-events-none absolute inset-0 -z-10  from-indigo-600/20 via-fuchsia-500/10 to-transparent" />
 
       <header className="mb-12 text-center">
         <h2 className="text-4xl font-extrabold tracking-tight text-slate-100 sm:text-5xl">
-          Get in{" "}
-          <span className="bg-gradient-to-r from-indigo-400 to-fuchsia-400 bg-clip-text text-transparent">
+          Get in
+          <span className=" from-indigo-400 to-fuchsia-400 bg-clip-text text-transparent">
             touch
           </span>
         </h2>
